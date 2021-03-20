@@ -1,0 +1,1 @@
+data class Order (val products: List<Product>, val cost: Int)
