@@ -1,5 +1,6 @@
-##Simulation model of an online store
-**The model simulates the process of an online store. **
+## Simulation model of an online store
+
+**The model simulates the process of an online store.**
 The store has 15 regular customers and 5 company customers. Major events (placing orders, delivery of goods) occur sequentially (for example, 5 orders and 1 delivery of goods). The quantity of delivered goods, the quantity of goods in the order, and who made the order are determined randomly. If an order is received from a customer-company, then they are given a 20% discount. Ordinary shoppers buy from 1 to 5 items in quantities of 1 to 10 each. Company buyers buy from 1 to 3 items in the amount of 10 to 50 pieces each. With each order, the online store receives a profit equal to the number of goods in the order, multiplied by its cost (if the order is from a customer-company, then a 20% discount will also be taken into account). When goods are delivered to the warehouse, from 2 to 7 types of goods will be added to the store in the amount of 40 to 80 pieces each. There are 10 types of goods in the store. With each delivery, the store pays for the goods an amount equal to the quantity of the goods multiplied by its value. All events will be displayed as a line to the console. The program can be interrupted by pressing the key, after pressing the number of profit (loss) of the store will be displayed. The entire sequence of events will be output as a message to the console.
 
 ------------
